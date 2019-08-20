@@ -1,0 +1,11 @@
+.jumbotron {
+    background-image: url("https://cdn.mos.cms.futurecdn.net/7jdAzhXDFrSdJr4Jmrm5i9.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.display-4 {
+    text-shadow: 2px 2px 1px rgb(2, 43, 14);
+    font-weight: 600; 
+    color: azure;
+}

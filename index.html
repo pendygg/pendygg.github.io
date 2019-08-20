@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lacquer|Liu+Jian+Mao+Cao|M+PLUS+1p|Ma+Shan+Zheng|Zhi+Mang+Xing&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <title>MyPage</title>
+  </head>
+  <body>
+    <h1 class="hidden">MyPage</h1>
+    <!-- 我用这个练习HTML5 -->
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+          <img class="mr-2" src="https://pic2.zhimg.com/344b4eda9_is.jpg" alt="">
+          Hello! Everyone
+      </a>
+      
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <div class="navbar-nav d-flex align-items-center">
+          <a class="nav-item nav-link active" href="index.html">Home</a>
+          <a class="nav-item nav-link" href="game/game.html">Game</a>
+          <a class="nav-item nav-link" href="sample/sample.html">Sample</a>
+          <a class="nav-item nav-link" href="trip/trip.html">Trip</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="accordion" id="info">
+      <div class="card">
+        <div class="card-header">
+          <h2 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#nickname">
+              <div class="text-success">ニックネーム</div>
+            </button>
+          </h2>
+        </div>
+        <div id="nickname" class="collapse show" data-parent="#info">
+          <div class="card-body">
+            TK
+          </div>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-header">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#age">
+              <div class="text-success">年齢</div>
+            </button>
+          </h2>
+        </div>
+        <div id="age" class="collapse" data-parent="#info">
+          <div class="card-body">
+            29歳
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#country">
+              <div class="text-success">出身地</div>
+            </button>
+          </h2>
+        </div>
+        <div id="country" class="collapse" data-parent="#info">
+          <div class="card-body">
+            中国 (TOKYO在住)
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#height">
+              <div class="text-success">身長</div>
+            </button>
+          </h2>
+        </div>
+        <div id="height" class="collapse" data-parent="#info">
+          <div class="card-body">
+            180cm
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#language">
+              <div class="text-success">書ける言語</div>
+            </button>
+          </h2>
+        </div>
+        <div id="language" class="collapse" data-parent="#info">
+          <div class="card-body">
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>Swift</li>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#school">
+              <div class="text-success">学歴</div>
+            </button>
+          </h2>
+        </div>
+        <div id="school" class="collapse" data-parent="#info">
+          <div class="card-body">
+            大学院卒
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#job">
+              <div class="text-success">職種</div>
+            </button>
+          </h2>
+        </div>
+        <div id="job" class="collapse" data-parent="#info">
+          <div class="card-body">IT関係</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="h4 alert alert-success">
+      <i class="fab fa-amazon mr-3"></i>好きな物
+    </div>
+    
+    <div class="row justify-content-center mx-3">
+      <div class="col-xl-3 col-lg-4 col-md-6 col-8 d-flex align-items-stretch">
+        <div class="card my-3">
+          <img src="https://images.techhive.com/images/article/2017/04/apple-product-family-stock-2017-100719903-large.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Apple</h5>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-xl-3 col-lg-4 col-md-6 col-8 d-flex align-items-stretch">
+        <div class="card my-3">
+          <img src="https://d2q63o9r0h0ohi.cloudfront.net/images/fb-share/facebook-share-default-04812acb25dba13239f3dbe52750ff0f4ae58cc52b5924e7cf6ffea5e1b8993d4f07bb5918b25cb9f8bb8f626f694e20e579f8eb50a43de1c1fd2fc1d6c81a60.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Hearth Stone</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-lg-4 col-md-6 col-8 d-flex align-items-stretch">
+        <div class="card my-3">
+          <img src="https://realsound.jp/wp-content/uploads/2019/07/20190726-tenkinoko-main-946x633.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">天気の子</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-lg-4 col-md-6 col-8 d-flex align-items-stretch">
+        <div class="card my-3">
+          <img src="https://nearst-uploads.s3-eu-west-1.amazonaws.com/bf522e5879fa2b991794349198f08fbcfcc36fb43e/o.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">読書</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
