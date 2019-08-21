@@ -2,12 +2,9 @@ body {
 	font-family: 'Lacquer', 'M PLUS 1p', 'Ma Shan Zheng', sans-serif, cursive;
 }
 
-.hidden {
-	display: none;
+#navbarMenu .navbar-nav .nav-link:hover {
+	color: red;
 }
-
-
-
 
 
 
