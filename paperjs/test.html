@@ -71,7 +71,8 @@ function onResize(event) {
 	new Path.Rectangle({
 		rectangle: view.bounds,
 		fillColor: raster.getAverageColor(view.bounds),
-		onMouseMove: moveHandler
+		onMouseMove: moveHandler,
+		onTouchMove: moveHandler
 	});
 }
 </script>
